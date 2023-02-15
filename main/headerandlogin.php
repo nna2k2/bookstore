@@ -1,12 +1,12 @@
 <?php
-include ('connect_db/connect_db.php');
+include('connect_db/connect_db.php');
 $user = (isset($_SESSION['user'])) ? $_SESSION['user'] : [];
 ?>
 
 <section>
     <header style="display: flex">
         <div class="logo">
-            <a href="index.php"><img src="img/BK_Books.png" ></a>
+            <a href="../index.php"><img src="../img/BK_Books.png" ></a>
         </div>
         <div class="menu">
             <li><a> Trang Chủ</a>

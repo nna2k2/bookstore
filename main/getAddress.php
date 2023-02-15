@@ -1,5 +1,5 @@
 <?php
-include ('connect_db/connect_db.php');
+include('connect_db/connect_db.php');
 if ($_POST) {
 
         $_SESSION['address']['1'] = $_POST['full_name'];
