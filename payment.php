@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="../css/style3.css">
+    <link rel="stylesheet" href="css/style3.css">
 
     <!--boostrap-->
     <link
@@ -24,14 +24,14 @@
     />
     <!-- ================================================================================================== -->
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <link rel="stylesheet" href="../css/cart3.css">
-    <link rel="stylesheet" href="../css/payment.css">
+    <link rel="stylesheet" href="css/cart3.css">
+    <link rel="stylesheet" href="css/payment.css">
 
 
 </head>
 <body >
 <?php
-include('headerandlogin.php');
+include ('headerandlogin.php');
 ?>
     <!-- -------------payment------ -->
     <!-- -------------payment icon------ -->
@@ -118,7 +118,7 @@ include('headerandlogin.php');
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="user/home.js"></script>
-    <script src="../js/scrip3.js"></script>
+    <script src="js/scrip3.js"></script>
 <?php require_once("order_hienthi.php");?>
     </body>
     </html>

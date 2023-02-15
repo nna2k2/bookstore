@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="../css/style3.css">
+    <link rel="stylesheet" href="css/style3.css">
 
     <!--boostrap-->
     <link
@@ -24,14 +24,14 @@
     />
     <!-- ================================================================================================== -->
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <link rel="stylesheet" href="../css/product.css">
+    <link rel="stylesheet" href="css/product.css">
 
 
 </head>
 <body >
 <section>
     <?php
-    include('headerandlogin.php');
+    include ('headerandlogin.php');
 
     ?>
 <!--------product--------->
@@ -80,7 +80,7 @@
                     <div class="product-content-right-product-price">
                         <p><?php echo $row['price'] ?><sup>đ</sup></p>
                     </div>
-                        <form action="cart.php?GetID=<?php echo$row['id'] ?>" method="post">
+                        <form  action="cart.php?GetID=<?php echo$row['id'] ?>" method="post">
                     <div class="product-content-right-product-quantity">
                         <a style="font-weight: bold">So luong: </a>
                         <input name="number" type="number" min="0" value="1">
@@ -218,8 +218,8 @@
         </div>
     </div>
 </section>
-<script src="../js/scrip3.js"></script>
-<script src="../js/product.js"></script>
+<script src="js/scrip3.js"></script>
+<script src="js/product.js"></script>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>

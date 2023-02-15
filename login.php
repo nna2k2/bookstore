@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-  <link rel="stylesheet" href="../css/login1.css">
+  <link rel="stylesheet" href="css/login1.css">
   <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
 
 
@@ -11,7 +11,7 @@
 <body>
 
 <?php
-include('connect_db/connect_db.php');
+include ('connect_db/connect_db.php');
 ?>
 
 <div class="demo-wrap">
@@ -44,7 +44,7 @@ include('connect_db/connect_db.php');
         <input type="password" placeholder="Re-Password" name="rpassword"/>
 
       <div class="button-ok">
-        <a href="../index.php" ><button type="button">Cancel</button></a>
+        <a href="index.php" ><button type="button">Cancel</button></a>
         <button type="submit">Sign Up</button>
       </div>
     </form>
@@ -83,7 +83,7 @@ include('connect_db/connect_db.php');
       <input type="password" placeholder="Password" name="password"/>
       <a href="#">Forgot your password?</a>
       <div class="button-ok">
-        <a href="../index.php"><button type="button">Cancel</button></a>
+        <a href="index.php"><button type="button">Cancel</button></a>
         <button type="submit">Sign In</button>
       </div>
     </form>
@@ -111,7 +111,7 @@ include('connect_db/connect_db.php');
     container.classList.add("right-panel-active");
 </script>
 <?php unset ($_SESSION['err']); }  ?>
-<script src="../js/login.js"></script>
+<script src="js/login.js"></script>
 
 </body>
 </html>
